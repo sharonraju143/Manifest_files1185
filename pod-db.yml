@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vprodb
-        image: sharonraju143/finalimage_db:latest
+        image: sharonraju143/finalimage_db
         imagePullPolicy: Always
         ports:
         - name: vprodb-port
