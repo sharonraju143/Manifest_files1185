@@ -8,7 +8,6 @@ spec:
   containers:
   - name: vproapp
     image: sharonraju143/finalimage
-    imagePullPolicy: Always
     ports:
     - name: vproapp-port
       containerPort: 8080 
