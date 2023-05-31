@@ -17,6 +17,7 @@ spec:
       containers:
       - name: vprodb
         image: sharonraju143/finalimage_db:latest
+        imagePullPolicy: Always
         ports:
         - name: vprodb-port
           containerPort: 3306
