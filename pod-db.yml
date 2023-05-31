@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vprodb
-        image: sharonraju143/finalimage_db
+        image: sharonraju143/finalimage_db:latest
         ports:
         - name: vprodb-port
           containerPort: 3306
